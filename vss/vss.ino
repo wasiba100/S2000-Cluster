@@ -27,7 +27,7 @@ void loop(){
   Serial.println(int);
   int speed = 1.263654879*pow(10,-2)*pow(duration,2) - 37.71764488*duration + 25133.52801;
   
-  //Timer1.pwm(vssOut,512,18650/(0.50*220)); //we set the new custom pwm on vssOut pin
+  //Timer1.pwm(vssOut,512,18650/(0.50*220)); //we set the new custom pwm on vssOut pin agregamos  pin out
       
       Timer1.pwm(vssOut,512,18650/(0.50*speed));
       

@@ -1,6 +1,6 @@
 //ECT converter from civic eg sensor to s2000 cluster
 //Version 1.0
-//read.the.disclaimer@gmail.com
+//read.the.disclaimer@gmail.com modificado por walter.ybarra.sari@gmail.com
 
 #include <TimerOne.h> //this library will allow us to use pwm signals with custom period
 
